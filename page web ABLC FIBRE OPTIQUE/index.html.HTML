@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABLC fibre optique</title>
+    <link rel="shortcut icon" href="./LOGO ABLC.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init({
+                publicKey: "WFBv0R61nk7NkTGTm",
+            });
+        })();
+    </script>
+
+</head>
+
+<body>
+
+
+    <header>
+        <nav id="navbar">
+            <ul>
+                <li id="logo"><a href="#">ABLC FIBRE OPTIQUE</a></li>
+                <li><a href="#contact">Postuler</a></li>
+                <li><a href="#contact">Nous contacter</a></li>
+
+            </ul>
+        </nav>
+        <div id="principale">
+            <h1>ABLC FIBRE OPTIQUE</h1>
+            <div id="premierTrait"></div>
+            <h3>Raccordements et Maintenances</h3>
+        </div>
+    </header>
+    <section id="presentation">
+        <div id="textIntro">
+            <h2>La vitesse qui connecte vos ambitions</h2>
+            <p>Notre entreprise, ABLC Fibre optique,met à votre service une connexion Internet de nouvelle
+                génération,alliant vitesse et fiabilité.Nous accomagnons particuliers et professionnels dans leurs
+                besoins numériques grâce à une fibre performante stable et adaptée aux exigences d'aujourd'hui et de
+                demain.</p>
+        </div>
+        <div id="prestations">
+            <div class="imagesPrestations">
+                <h4>Internet Pro</h4>
+                <a href="#"><img src="./ethernet.jpg" alt="internetPro"></a>
+            </div>
+            <div class="imagesPrestations">
+                <h4>Internet haut débit</h4>
+                <a href="#"><img src="./LAPTOP.jpg" alt="Laptop"></a>
+            </div>
+            <div class="imagesPrestations">
+                <h4>WI-FI rapide</h4>
+                <a href="#"><img src="./Mobile.jpg" alt="internetPro"></a>
+            </div>
+
+        </div>
+    </section>
+    <section id="ftth">
+        <h2>Nos activitées...</h2>
+        <ul>
+            <li id="ftto">
+                <p>Raccordements professionnels</p>
+            </li>
+            <li id="pm">
+                <p>Raccordements particuliers</p>
+            </li>
+            <li id="aerien">
+                <p>Raccordements aériens</p>
+            </li>
+            <li id="souterrain">
+                <p>Prestations S.A.V</p>
+            </li>
+        </ul>
+    </section>
+    <footer>
+        <h2 id="contact">Contactez-nous</h2>
+
+
+        <input type="text" id="name" name="name" placeholder="Nom" required>
+        <input type="email" id="email" name="email" placeholder="Votre e-mail" required>
+        <input type="text" id="subject" name="subject" placeholder="Objet" required>
+        <textarea id="message" name="message" placeholder="Votre message ici..."></textarea>
+        <button id="btn1" type="submit" onclick="sendMail()">Envoyer</button>
+        <p id="msg">votre message est bien envoyé!</p>
+        
+        </form>
+        <div id="deuxiemeTrait"></div>
+        <div id="copyrightEtIcons">
+            <div id="copyright">
+                <span>© ABLC FIBRE OPTIQUE 2025</span>
+            </div>
+            <div id="icons">
+                <a href="http://www.linkedin.fr"><i class="fa fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script src="./index.js"></script>
+</body>
+
+</html>
